@@ -24,3 +24,5 @@ A VIDEO CALLING WEB APPLICATION with REALTIME CHAT FEATURE.
 
 
 ## WORKING DEMO : [video-chat-app](https://morning-basin-34512.herokuapp.com/)
+
+> PS : Sometimes it takes longer to connect the peers, please try refreshing the page. Trying to fix the bug asap.
