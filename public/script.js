@@ -155,6 +155,6 @@ inviteButton.addEventListener("click", (e) => {
 
 const leaveButton = $('#leaveButton')
 leaveButton.addEventListener("click", ()=>{
-    window.close()  //not working as the setting changed due to security rules 
+    window.close()   
 })
 
