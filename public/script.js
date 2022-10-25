@@ -123,14 +123,13 @@ stopVideo.addEventListener("click", () => {
     }
 })
 
-var x=0
+var cnt=0
 const chatButton = document.querySelector("#chatButton")
 chatButton.addEventListener("click", (e) => {
-    x= x+1
-    console.log((x%2))
+    cnt= cnt+1
     const mainVideo = $("#main__left")
     const chat= $("#main__right")
-    if(x%2 === 1){
+    if(cnt%2 === 1){
         mainVideo.addClass('main__left_after')
         chat.addClass('main__right_after')
     }
