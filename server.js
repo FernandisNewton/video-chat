@@ -40,15 +40,7 @@ io.on('connection', socket => {
             socket.to(roomId).emit('user-disconnected', userId)
         })
 
-        
-
-        // socket.on('offer',(data) =>{
-        //     socket.emit('offer', data)
-        // })
-
-        // socket.on('initiate', () =>{
-        //     io.emit('initiate')
-        // })
+       
     })
 })
 server.listen(process.env.PORT || 3000)
